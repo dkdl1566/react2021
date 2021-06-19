@@ -72,6 +72,7 @@ function ProjectText({ title, image, link }) {
       </div>
       <div className='content_img_box'>
         <div className='content_img'>
+          <img src='img/site03@2x.jpg' alt='웹표준 사이트 만들기' />
           <img src={image} alt={title} />
         </div>
       </div>
@@ -88,7 +89,7 @@ const ProjectInfo = [
   {
     id: '1',
     title: 'WEB STANDARD',
-    image: '../assets/images/web_standard_mok.png',
+    image: 'img/web_standard_mok.png',
     link: 'http://dkdl1566.dothome.co.kr/web_standard/'
   },
   {
